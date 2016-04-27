@@ -1,0 +1,41 @@
+{
+	"team" :"Frontend",
+	"members" : [
+		{
+			"id" : 100,
+			"name" :"Pedro",
+			"lastName" :"Peña",
+			"entryDate" :"2014-02-10"
+		},
+		{
+			"id" : 101,
+			"name" :"Eduardo",
+			"lastName" :"Hidalgo",
+			"entryDate" :"2014-07-08"
+		},
+		{
+			"id" : 103,
+			"name" :"Francisco",
+			"lastName" :"Jiménez",
+			"entryDate" :"2015-03-22"
+		},
+		{
+			"id" : 104,
+			"name" :"Bernardo",
+			"lastName" :"Pazo",
+			"entryDate" :"2016-02-07"
+		},
+		{
+			"id" : 105,
+			"name" :"Hugo",
+			"lastName" :"Queiros",
+			"entryDate" :"2016-02-23"
+		},
+		{
+			"id" : 106,
+			"name" :"Iram",
+			"lastName" :"Gutiérrez",
+			"entryDate" :"2016-04-20"
+		}
+	]
+}
