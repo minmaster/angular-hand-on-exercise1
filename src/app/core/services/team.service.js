@@ -1,3 +1,5 @@
+import moment from 'moment';
+
 export default class DataService {
     constructor($http, $q) {
         this.team = null;
@@ -23,9 +25,15 @@ export default class DataService {
                         member = value;
                     }
                 });
-                
+
                 return this.$q.resolve(member);
 
             })
+    }
+    getDays(date) {
+        let currentDate = moment(new Date());
+        let memberDate = moment(date);
+
+        return currentDate.diff(memberDate, 'days')
     }
 }
